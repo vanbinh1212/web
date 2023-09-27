@@ -1,0 +1,52 @@
+﻿.style201 {
+    width: 185px;
+    min-height: 100px;
+}
+.style202 {
+    text-align: left;
+    height: 25px;
+    font-weight: bold;
+    font-size: 17px;
+}
+.span_style205 {
+    color: #FF0000;
+}
+.style207 {
+    min-height: 0px;
+    color: #008000;
+    font-size: 13px;
+    text-align: justify;
+}
+.style208 {
+    height: 15px;
+    color: #999999;
+    font-size: 10px;
+}
+.style211 {
+    text-align: left;
+    min-height: 0px;
+    color: #000080;
+    font-weight: bold;
+    font-size: 14px;
+}
+.style212 {
+    min-height: 0px;
+    color: #000080;
+}
+.style213 {
+    min-height: 1px;
+    color: #008000;
+    font-weight: bold;
+}
+.style214 {
+    text-align: left;
+    min-height: 0px;
+    color: #0000FF;
+    font-weight: bold;
+    font-size: 14px;
+}
+.style215 {
+    height: 20px;
+    font-weight: bold;
+    color: #000080;
+}

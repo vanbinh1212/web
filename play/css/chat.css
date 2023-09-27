@@ -1,0 +1,96 @@
+﻿#chat_fixed {
+    bottom: 0;
+    left: 80%;
+    margin-left: -200px;
+    overflow: hidden;
+    padding: 0 5px;
+    position: fixed;
+    width: 400px;
+    z-index: 9999;
+}
+
+.chat_fixedHeader {
+    background: none repeat scroll 0 0 #6d84b4;
+    border: 1px solid #3d5a99;
+    border-bottom: none;
+    color: #fff;
+    height: 22px;
+    margin: 0 auto;
+    padding: 5px;
+    width: 390px;   
+    font-weight:700;
+    font-size:15px;
+}
+
+.chat_fixedContent {
+    background: none repeat scroll 0 0 #ffffff;
+    border-left: 1px solid #b2b2b2;
+    border-right: 1px solid #b2b2b2;
+    margin: 0 auto;   
+    width: 400px;
+    height:300px;
+    overflow: auto;
+}
+
+.chat_userinput{
+    width: 388px;
+    height:16px;
+    outline:none;
+    display:block;
+    resize:none;
+    padding:5px;    
+}
+
+.chat_messages{
+    color: #333;
+    line-height: 1.28;
+    padding:5px;
+    margin-left:5px;
+    font-size: 14px;
+    /*display: block;*/
+}
+
+.chat_userwrap{
+    position:relative;
+}
+
+.chat_user{
+    padding: 5px ;
+    font-size:12px;
+    color:#888;
+    font-weight:700;
+    /*position:absolute;*/
+    left:0; top:0;
+}
+
+.chat_mod{
+    color:blue;
+}
+
+.chat_admin{
+    color:red;
+}
+
+.chat_syserr{
+    padding: 5px ;
+    font-size:12px;
+    color:red;
+    font-weight:700;
+    /*position:absolute;*/
+    left:0; top:0;
+}
+
+.chat_syssucc{
+    padding: 5px ;
+    font-size:12px;
+    color:blue;
+    font-weight:700;
+    /*position:absolute;*/
+    left:0; top:0;
+}
+
+.red_line_border {
+	color:red;
+	font-weight:bold;
+	padding-top:5px;
+}

@@ -1,0 +1,103 @@
+html,
+body,
+div,
+ul,
+ol,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dl,
+dt,
+dd,
+input,
+form,
+select,
+a,
+img,
+em,
+span,
+strong,
+table,
+tbody,
+th,
+tr,
+td,
+textarea,
+iframe,
+button {
+  margin: 0;
+  padding: 0;
+}
+img,
+button,
+embed {
+  vertical-align: top;
+  border: 0 none;
+}
+input,
+textarea {
+  border: 0 none;
+  outline: none;
+  resize: none;
+}
+ul,
+ol,
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  font-size: 100%;
+  text-decoration: none;
+}
+i,
+em {
+  font-style: normal;
+}
+b {
+  font-weight: normal;
+}
+
+.clearfix:after {
+  clear: both;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  content: '';
+}
+.outmargin::before {
+  content: '';
+  display: table;
+}
+
+.pr {
+  position: relative;
+}
+.prc {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.pa {
+  position: absolute;
+}
+.pac {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tc {
+  text-align: center;
+}
+
+.fl {
+  float: left;
+}

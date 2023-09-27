@@ -1,0 +1,249 @@
+body {
+  font: 14px/1.5em, 'Microsoft YaHei', 'simsun', sans-serif, Arial;
+  overflow-x: hidden;
+  color: #fff;
+}
+/* æœåŠ¡å™¨æŒ‰é’® */
+.server-item {
+  float: left;
+  width: 202px;
+  height: 40px;
+  line-height: 40px;
+  cursor: pointer;
+  margin: 0 8px 8px 0;
+}
+.server-item a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.server-item.hot a {
+  border: 2px solid #ee7810;
+  background-image: linear-gradient(180deg, #e3530e, #cf3614);
+}
+.server-item.smooth a {
+  border: 2px solid #9cea6f;
+  background-image: linear-gradient(180deg, #69dd5c, #3dba46);
+}
+.server-item.busy a {
+  border: 2px solid #41518a;
+  background-color: #313c78;
+}
+.server-item.maintenance a {
+  border: 2px solid #505050;
+  background-color: #464646;
+}
+.server-item a:before {
+  content: '';
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  vertical-align: middle;
+  margin: 0 10px;
+}
+.server-item.hot a:before {
+  background: url(../Image/sprite-status.png)
+    no-repeat -54px -23px;
+}
+.server-item.smooth a:before {
+  background: url(../Image/sprite-status.png)
+    no-repeat -6px -23px;
+}
+.server-item.busy a:before {
+  background: url(../Image/sprite-status.png)
+    no-repeat -6px -53px;
+}
+.server-item.maintenance a:before {
+  background: url(../Image/sprite-status.png)
+    no-repeat -54px -53px;
+}
+/* è¾“å…¥æ¡† */
+.box-input input {
+  width: 190px;
+  height: 31px;
+  line-height: 31px;
+  padding-left: 5px;
+  background: #c46d20;
+  border: 1px solid #2e3747;
+  color: #72430d;
+  margin-right: 10px;
+}
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #72430d;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #72430d;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #72430d;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #72430d;
+}
+
+.wrapper {
+  width: 1920px;
+  height: 1050px;
+  background: #f1f1f1 url(../Image/bg.jpg)
+    no-repeat;
+}
+.container {
+  width: 800px;
+  height: 100px;
+  margin-left: 665px;
+}
+.container .link {
+  width: 250px;
+  height: 26px;
+  line-height: 26px;
+  top: 0;
+  left: 520px;
+  font-size: 12px;
+}
+.link a {
+  padding: 0 10px;
+  color: #84441d;
+  /* border-right: 1px solid #455888; */
+}
+.link a:last-child {
+  border: none;
+}
+article {
+  margin: 30px 0 0 55px;
+}
+h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #84441d;
+}
+h3 {
+  font-size: 16px;
+  font-weight: bolder;
+  color: #b1561a;
+}
+/* æŽ¨èæœ */
+.recom {
+  margin-top: 38px;
+}
+.recommend-list {
+  margin-top: 20px;
+  height: 80px;
+  overflow: auto;
+}
+.recommend-list .server-item {
+  margin-right: 62px;
+}
+/* login */
+.login {
+  width: 670px;
+  height: 125px;
+}
+.login h3 {
+  margin: 20px 0;
+}
+.btn-login {
+  width: 168px;
+  height: 58px;
+  background: url(../Image/btn-login.png) no-repeat;
+  cursor: pointer;
+  margin-top: -20px;
+}
+.unlogined p {
+  margin-top: 50px;
+  color: #72430d;
+}
+.unlogined p a {
+  color: #72430d;
+  font-size: 12px;
+  margin-right: 20px;
+}
+.unlogined p a:last-child {
+  margin-left: 20px;
+}
+.logined {
+  display: none;
+  color: #999;
+  font-size: 14px;
+}
+.logined a {
+  color: #ff6d25;
+}
+.logined .user-center {
+  margin-left: 50px;
+}
+.logined .user-quit,
+.logined .user-info {
+  margin-left: 10px;
+}
+.logined p:first-child {
+  margin-bottom: 15px;
+}
+/* servers */
+.servers {
+  width: 700px;
+}
+.servers h3 {
+  margin: 20px 0;
+}
+.status-list {
+  top: 30px;
+  left: 280px;
+}
+.status {
+  float: left;
+  margin-left: 20px;
+  font-size: 14px;
+  color: #72430d;
+}
+.status::after {
+  width: 19px;
+  height: 19px;
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+.status.hot::after {
+  background: url(../Image/sprite-status.png) no-repeat -23px 0;
+}
+.status.smooth::after {
+  background: url(../Image/sprite-status.png) no-repeat 0 0;
+}
+.status.busy::after {
+  background: url(../Image/sprite-status.png) no-repeat -46px 0;
+}
+.status.maintenance::after {
+  background: url(../Image/sprite-status.png) no-repeat -69px 0;
+}
+.box-server {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 550px;
+}
+.agent-list {
+  margin-bottom: 25px;
+}
+.agent-item {
+  float: left;
+  text-align: center;
+  width: 83px;
+  height: 28px;
+  line-height: 28px;
+  color: #000;
+  font-size: 14px;
+  cursor: pointer;
+}
+.agent-item.active {
+  color: #fff;
+  background-color: #72430d;
+}
+.server-list {
+  overflow: auto;
+  flex: auto;
+}
